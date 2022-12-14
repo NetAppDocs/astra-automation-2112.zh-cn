@@ -3,8 +3,6 @@
   <block id="d41d8cd98f00b204e9800998ecf8427e" category="summary"></block>
   <block id="916bff7b68625feaff0fa92152a8c4f0" category="doc">URL 格式</block>
   <block id="94fd56b370187429c8fbd312f50f5c1b" category="paragraph">用于通过 REST API 访问资源实例或集合的 URL 的常规结构由多个值组成。此结构反映了底层对象模型和系统设计。</block>
-  <block id="04af7c5cae35340b12ac2ff18f2993fb" category="section-title">URL 的格式</block>
-  <block id="3e0ab85384ebe4f846202e772b341dc5" category="paragraph">下面显示了 URL 的格式以及一个示例。</block>
   <block id="6e84a7dae5ae82dd22a0ec6f456dbc8d" category="section-title">帐户作为 root</block>
   <block id="e166d573b25ce4160633b91145d1eae5" category="paragraph">指向每个 REST 端点的资源路径的根是 Astra 帐户。因此， URL 中的所有路径均以 ` /account/ ｛ account_id ｝` 开头，其中 `account_id` 是帐户的唯一 UUIDv4 值。内部结构这反映了一种设计，其中所有资源访问都基于特定帐户。</block>
   <block id="faf17fd8415851163c880ffe0eee8b37" category="section-title">端点资源类别</block>
@@ -293,7 +291,6 @@
   <block id="78ceba6718263592394adb03dc11471c" category="paragraph">您应查看当前版本中与 Astra Control REST API 相关的所有已知问题。已知问题可确定可能会阻止您成功使用本产品的问题。</block>
   <block id="f977fda19bbfe49b9346f60f532f0704" category="section-title">未发现后端存储节点中的所有存储设备</block>
   <block id="13595bcf3f8022567de41bcd09ef92b2" category="paragraph">在发出 REST API 调用以检索存储节点中定义的存储设备时，只会发现 Astra 数据存储设备。并非所有设备都会返回。</block>
-  <block id="fd341dfea170932946910997510c48e8" category="section-title">Astra Data Store 存储后端处于未知状态</block>
   <block id="e1c83179f57e62cb00fbb2646ef58e6e" category="paragraph">发出 API 调用以检索存储后端后， Astra Data Store 存储后端处于 `未知` 状态。在这种情况下，存储后端实际上仍可用，可以与通信。但是，存储后端中的组件可能处于不正常状态，需要将其恢复为正常状态，以便存储后端显示为 `Available` 。</block>
   <block id="c93cc787737ceea532bea714170e32cf" category="doc">Astra Control REST API 的新增功能</block>
   <block id="b0c0f8ac8f671541655d3d0e2beb2ce8" category="paragraph">NetApp 会定期更新 Astra Control REST API ，为您提供新功能，增强功能和错误修复。</block>
@@ -861,4 +858,7 @@
   <block id="35ddd64ed03dd1579ce39e6e82ff721f" category="sidebar">其他 REST 注意事项</block>
   <block id="36b64aad8a26246fe3ad4116a2b6f289" category="sidebar">诊断</block>
   <block id="f05754a1ff0413a18fba9fcecbf43b4d" category="sidebar">获取 API 令牌</block>
+  <block id="bbe48fb854ea022537208eeeff822f91" category="paragraph-title">关于此任务</block>
+  <block id="bd965e38a0c9cf27aa1bde099308e23f" category="paragraph-title">完成后</block>
+  <block id="02888730c53ce06848a227c66075dfd4" category="section-title">中的Astra Data Store存储后端<block ref="88183b946cc5f0e8c96b2e66e1c74a7e" prefix=" " category="inline-code"></block> state</block>
 </blocks>

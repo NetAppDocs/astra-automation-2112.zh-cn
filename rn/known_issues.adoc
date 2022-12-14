@@ -24,6 +24,6 @@ summary:
 
 
 
-== Astra Data Store 存储后端处于未知状态
+== 中的Astra Data Store存储后端 `Unknown` state
 
 发出 API 调用以检索存储后端后， Astra Data Store 存储后端处于 `未知` 状态。在这种情况下，存储后端实际上仍可用，可以与通信。但是，存储后端中的组件可能处于不正常状态，需要将其恢复为正常状态，以便存储后端显示为 `Available` 。
