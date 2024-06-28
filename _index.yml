@@ -1,0 +1,73 @@
+---
+indexpage:
+  title: Astra Control Automation 21.12 文档
+  summary: Astra Control是一款NetApp软件产品、可为您的Kubernetes应用程序提供数据生命周期管理。根据您的环境、有两种部署模式可供选择。在给定版本中、Astra控制中心和Astra控制服务都共享相同的REST
+    API。您可以使用API和其他相关自动化技术来管理Astra Control部署。
+  keywords: astra, astra control, astra control center, astra control service, data
+    management, rest, rest api, kubernetes, deployment, 2112
+  lead: Astra Control是一款NetApp软件产品、可为您的Kubernetes应用程序提供数据生命周期管理。根据您的环境、有两种部署模式可供选择。在给定版本中、Astra控制中心和Astra控制服务都共享相同的REST
+    API。您可以使用API和其他相关自动化技术来管理Astra Control部署。
+  tiles:
+  - title: 入门
+    links:
+    - title: 简介
+      summary: 简要了解 Astra REST API 。
+      url: "/intro/introduction.html"
+    - title: 开始之前
+      summary: 准备开始使用 REST API 。
+      url: "/get-started/before_get_started.html"
+    - title: 获取 API 令牌
+      summary: 生成访问 API 所需的令牌。
+      url: "/get-started/get_api_token.html"
+    - title: 大家好
+      summary: 测试对 REST API 的基本访问。
+      url: "/get-started/hello_world.html"
+  - title: REST 实施
+    links:
+    - title: REST Web 服务
+      summary: 了解 REST Web 服务的技术基础。
+      url: "/rest-core/rest_web_services.html"
+    - title: HTTP 详细信息
+      summary: 查看 HTTP 实施的详细信息。
+      url: "/rest-core/http_details.html"
+    - title: URL 格式
+      summary: 了解 URL 格式及其如何由多个值组成。
+      url: "/rest-core/url_format.html"
+  - title: 其他注意事项
+    links:
+    - title: 安全性
+      summary: 了解 REST API 提供的安全性。
+      url: "/additional/security.html"
+    - title: 使用收集
+      summary: 使用查询参数访问资源收集。
+      url: "/additional/working_with_collections.html"
+    - title: 诊断和支持
+      summary: 准备支持 Astra 应用程序。
+      url: "/additional/diagnostics_support.html"
+  - title: Resources
+    links:
+    - title: 资源和集合
+      summary: 熟悉 REST 资源和集合的设计。
+      url: "/rest-core/resources_collections.html"
+    - title: Astra Control REST API 资源
+      summary: 查看有关各种 Astra 资源的简要介绍。
+      url: "/endpoints/resources.html"
+  - title: 工作流
+    links:
+    - title: 准备
+      summary: 准备使用 Astra 工作流。
+      url: "/get-started/prepare_to_use_workflows.html"
+    - title: 基础架构工作流
+      summary: 维护 Astra 运行时基础架构所需的工作流。
+      url: "/workflows_infra/workflows_infra_before.html"
+    - title: 管理工作流
+      summary: 用于管理受管应用程序的通用工作流。
+      url: "/workflows/workflows_before.html"
+  - title: Python
+    links:
+    - title: 开始之前
+      summary: 准备运行示例 Python 脚本。
+      url: "/python/python_before.html"
+    - title: 列出受管应用程序
+      summary: 运行示例脚本以列出受管应用程序。
+      url: "/python/py_list_man_apps.html"

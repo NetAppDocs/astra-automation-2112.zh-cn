@@ -322,7 +322,6 @@
   <block id="afa765b35dc1feb232f57160727f2c44" category="list-text">REST API 的访问通过 API 访问令牌提供，您可以在 Astra Web 用户界面上生成此令牌。通过 API 令牌，可以安全地访问 API 。</block>
   <block id="affb0039f4c476ad568439a171c9db0c" category="list-text">支持收集</block>
   <block id="39fc3040b9fe64cf202ce4de80bf7f69" category="list-text">有一组丰富的查询参数，可用于访问资源集合。支持的部分操作包括筛选，排序和分页。</block>
-  <block id="c6c51849eeb1ac322baa3a99b7cd7e43" category="summary">这是 Astra Automation 的总结。</block>
   <block id="d61b1a26306fd2300000d407ac76b0ca" category="doc">Astra Control Automation 21.12 文档</block>
   <block id="3e1ffa4f0f56cc64320d9813031ed226" category="doc">为受管应用程序创建备份</block>
   <block id="dd4ad95efd478c84cdb33460b84c4a9e" category="paragraph">您可以为特定受管应用程序创建备份。您可以使用备份还原或克隆应用程序。</block>
@@ -865,4 +864,5 @@
   <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
   <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
   <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
+  <block id="775e2faa120631457b3eb5f26a2f323a" category="sidebar">Astra Control是一款NetApp软件产品、可为您的Kubernetes应用程序提供数据生命周期管理。根据您的环境、有两种部署模式可供选择。在给定版本中、Astra控制中心和Astra控制服务都共享相同的REST API。您可以使用API和其他相关自动化技术来管理Astra Control部署。</block>
 </blocks>
